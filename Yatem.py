@@ -15,16 +15,16 @@ except ImportError:
 	os.system('pip install requests')
      try:
 
-	import requests
+
+import concurrent.futures
 
 except ImportError:
+	
 
 	print('\n [×] please wait sometimes !...\n')
 	
      os.system('pip install urllib3')
 
-
-try:
 
 	import concurrent.futures
 
